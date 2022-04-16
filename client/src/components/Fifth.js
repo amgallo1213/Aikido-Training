@@ -13,17 +13,14 @@ const FifthKyu = () => {
                 <table className="Table">
                     <tr>
                         <th>Basic Movements</th>
-                        <th>Still Training | </th>
                         <th>Ready to Test</th>
                     </tr>
                     <tr>
                         <td>Basic Stance</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Elbow Power #1, #2 with partner</td>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr><td></td></tr>
@@ -34,7 +31,6 @@ const FifthKyu = () => {
                     <tr>
                         <td>Forward roll #1, #2, #3 - 10 times each</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr><td></td></tr>
 
@@ -44,11 +40,9 @@ const FifthKyu = () => {
                     <tr>
                         <td>Bokken: Solo 4 direction cuts</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Jo: Solo 8 kinds of stances:</td>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
@@ -62,31 +56,25 @@ const FifthKyu = () => {
                     <tr>
                         <td>Front strike Rotary throw #1(A)</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Front strike Rotary throw #2 (G)</td>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Side strike Arm lock control #1 (A)</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Side strike Arm lock control #2 (G)</td>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Front strike First Control Pin #1 (A)</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Front strike First Control Pin #2 (G)</td>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr><td></td></tr>
@@ -94,13 +82,11 @@ const FifthKyu = () => {
                     <tr>
                         <th>Previous Techniques</th>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr><td></td></tr>
                     
                     <tr>
                         <th>This Year's Technique</th>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>Front strike All direction throw #2 (A)</tr>

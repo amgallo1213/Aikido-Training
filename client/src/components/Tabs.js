@@ -17,11 +17,11 @@ const Tabs = (props) => {
     }
 
     return (
-        <div style={{ margin: "auto", width: "85%", textAlign: "left"}}>
+        <div style={{ margin: "auto", width: "85%", textAlign: "left"}} >
 
         {
         allTabs.map((item, index) => (
-            <div className={`tab ${ tabStyle(index) }`} onClick={(e) => setSelectedTab(index) }>
+            <div className={`tab ${ tabStyle(index) }`} onClick={(e) => setSelectedTab(index) } >
             { item.label }
             </div>
         ))

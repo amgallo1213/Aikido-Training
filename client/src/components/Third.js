@@ -13,22 +13,18 @@ const ThirdKyu = () => {
                 <table className="Table">
                     <tr>
                         <th>Basic Movements</th>
-                        <th>Still Training | </th>
                         <th>Ready to Test</th>
                     </tr>
                     <tr>
                         <td>Basic Stance with Partner</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>How to sit and bow from basic stance (solo)</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>180 degree pivot (#10) - 3 kinds with partner</td>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
@@ -42,7 +38,6 @@ const ThirdKyu = () => {
                     <tr>
                         <td>Forward twist breakfall #4, #5</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr><td></td></tr>
 
@@ -52,11 +47,9 @@ const ThirdKyu = () => {
                     <tr>
                         <td>Tanto: solo #3</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Bokken movement with partner:</td>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
@@ -65,11 +58,9 @@ const ThirdKyu = () => {
                     <tr>
                         <td>Bokken (solo): Eight kinds of sword maneuver</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Jo with partner: Tsune no Kamae</td>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr><td></td></tr>
@@ -80,11 +71,9 @@ const ThirdKyu = () => {
                     <tr>
                         <td>Knee walking #1</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Knee walking #2</td>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr><td></td></tr>
@@ -95,52 +84,42 @@ const ThirdKyu = () => {
                     <tr>
                         <td>Breath Method #1</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Breath Method #2</td>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Breath Method #3</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr><td></td></tr>
 
-                   
                     <tr>
                         <th>Techniques</th>
                     </tr>
                     <tr>
                         <td>Sitting technique: Chest grasp 1st control #1</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Sitting technique: Chest grasp 1st control #2</td>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Behind technique: Both elbows grasp 3rd control pin #1</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Behind technique: Both elbows grasp 3rd control pin #2</td>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Supplemental movement: Shoulder grasp, side strike behind throw (A)</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Supplemental movement: Shoulder grasp, Body thrust Hitting elbow breath throw #1 (A)</td>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr><td></td></tr> 
@@ -148,13 +127,11 @@ const ThirdKyu = () => {
                     <tr>
                         <th>Previous Techniques</th>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr><td></td></tr>
 
                     <tr>
                         <th>This Year's Technique</th>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>Supplemental movement - Shoulder grasp, Yokomenuchi (95 degree pivot,</tr>
@@ -163,7 +140,6 @@ const ThirdKyu = () => {
                     
                     <tr>
                         <th>Continuation Technique: One hand grasp</th>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>First control throw #1</tr>

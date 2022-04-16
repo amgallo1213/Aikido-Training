@@ -11,22 +11,18 @@ const EighthKyu = () => {
                 <table className="Table">
                     <tr>
                         <th>Basic Movements</th>
-                        <th>Still Training | </th>
                         <th>Ready to Test</th>
                     </tr>
                     <tr>
                         <td>Basic Stance</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Elbow Power #1</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Elbow Power #2</td>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr><td></td></tr>
@@ -37,16 +33,13 @@ const EighthKyu = () => {
                     <tr>
                         <td>Backward roll #1</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Back breakfall #1</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Back breakfall #2</td>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr><td></td></tr>
@@ -57,7 +50,6 @@ const EighthKyu = () => {
                     <tr>
                         <td>Tanto: 10 movements with partner</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr><td></td></tr>
 
@@ -67,28 +59,23 @@ const EighthKyu = () => {
                     <tr>
                         <td>One hand grasp body change 1st control pin #1(A)</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>One hand grasp 1st control pin #2 (A)</td>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Face thrust step-in throw #1(G)</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Face thrust step-in throw #2 (G)</td>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr><td></td></tr>
                     
                     <tr>
                         <th>Previous Techniques</th>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                 </table>

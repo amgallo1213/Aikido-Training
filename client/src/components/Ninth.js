@@ -11,22 +11,18 @@ const NinthKyu = () => {
                 <table className="Table">
                     <tr>
                         <th>Basic Movements</th>
-                        <th>Still Training | </th>
                         <th>Ready to Test</th>
                     </tr>
                     <tr>
                         <td>Basic Stance</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Cross step in, body change #1 (2 kinds)</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>95 degree pivot</td>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr><td></td></tr>
@@ -37,11 +33,9 @@ const NinthKyu = () => {
                     <tr>
                         <td>Cross step back, back breakfall #1</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Cross step back, back breakfall #2</td>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr><td></td></tr>
@@ -52,7 +46,6 @@ const NinthKyu = () => {
                     <tr>
                         <td>Tanto Solo: 6 stances</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr><td></td></tr>
 
@@ -62,28 +55,21 @@ const NinthKyu = () => {
                     <tr>
                         <td>Cross hand grasp 2nd control pin #1 (A)</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Cross hand grasp 2nd control pin #2 (A)</td>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Sleeve grasp side step-in throw #1 (A)</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Body thrust side step-in throw #2 (A)</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                 </table>
             </form>
-
-
-
 
         </div>
      );

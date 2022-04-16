@@ -13,17 +13,14 @@ const FourthKyu = () => {
                 <table className="Table">
                     <tr>
                         <th>Basic Movements</th>
-                        <th>Still Training | </th>
                         <th>Ready to Test</th>
                     </tr>
                     <tr>
                         <td>Basic Stance</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>After class exercise #1, #2 with partner</td>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr><td></td></tr>
@@ -34,7 +31,6 @@ const FourthKyu = () => {
                     <tr>
                         <td>Jumping breakfall (cross hand grasp) with partner</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr><td></td></tr>
 
@@ -44,11 +40,9 @@ const FourthKyu = () => {
                     <tr>
                         <td>Bokken: Eight directional cuts</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Tanto with partner: 6 kinds of knife movements</td>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
@@ -62,31 +56,25 @@ const FourthKyu = () => {
                     <tr>
                         <td>One hand grasp 4th control pin #1(A)</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>One hand grasp 4th control pin #2 (G)</td>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Shoulder grasp 2nd control pin #1 (A)</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Shoulder grasp 2nd control pin #2 (G)</td>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Both hand grasp All direction throw pin #1 (A)</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Both hand grasp All direction throw pin #2 (G)</td>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr><td></td></tr>
@@ -94,13 +82,11 @@ const FourthKyu = () => {
                     <tr>
                         <th>Previous Techniques</th>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr><td></td></tr>
                     
                     <tr>
                         <th>This Year's Technique</th>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>Supplemental movement - Front Strike, shoulder grasp, </tr>

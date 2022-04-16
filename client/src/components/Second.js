@@ -13,17 +13,14 @@ const SecondKyu = () => {
                 <table className="Table">
                     <tr>
                         <th>Basic Movements</th>
-                        <th>Still Training | </th>
                         <th>Ready to Test</th>
                     </tr>
                     <tr>
                         <td>Basic Stance: Sitting method and bowing with partner (Budo way)</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Variations of 180 degree pivot and related techniques - 10 kinds</td>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
@@ -38,7 +35,6 @@ const SecondKyu = () => {
                     <tr>
                         <td>Jumping breakfall (solo)</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr><td></td></tr>
 
@@ -48,21 +44,17 @@ const SecondKyu = () => {
                     <tr>
                         <td>Bokken solo: combination sword and united basic movements</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Bokken movement with partner: Hizagiritsuki (2)</td>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Jo with partner: Honte no Kamae</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Bokken and Knife with partner: Kimusubi</td>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr><td></td></tr>
@@ -73,11 +65,9 @@ const SecondKyu = () => {
                     <tr>
                         <td>Knee walking #3</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Knee walking #4</td>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr><td></td></tr>
@@ -88,16 +78,13 @@ const SecondKyu = () => {
                     <tr>
                         <td>Breath Method #4</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Breath Method #5</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Breath Method #6</td>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr><td></td></tr>
@@ -109,41 +96,33 @@ const SecondKyu = () => {
                     <tr>
                         <td>Sitting technique: Side strike 2nd control pin #1</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Sitting technique: Side strike 2nd control pin #2</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Behind technique: Both hands grasp Hitting elbow breath throw #1</td>
-                        <td><input type="checkbox"></input></td>  
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Behind technique: Both hands grasp Hitting eblow breath throw #2</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Supplemental movement: Shoulder grasp, side strike behind throw (A)</td>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Supplemental movement: Shoulder grasp, Side strike, All direction throw #1</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Front strike (pivot evasion), Front strike (Body change) Breath throw</td>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>
                         <td>Front strike (pivot evasion), Side strike All direction throw (Advance) #1</td>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr><td></td></tr> 
@@ -151,13 +130,11 @@ const SecondKyu = () => {
                     <tr>
                         <th>Previous Techniques</th>
                         <td><input type="checkbox"></input></td>
-                        <td><input type="checkbox"></input></td>
                     </tr>
                     <tr><td></td></tr>
 
                     <tr>
                         <th>This Year's Technique</th>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>Supplemental movement - Side sleeve grasp (180 degree pivot) Body change </tr>
@@ -166,7 +143,6 @@ const SecondKyu = () => {
                     
                     <tr>
                         <th>Continuation Technique: Front strike</th>
-                        <td><input type="checkbox"></input></td>
                         <td><input type="checkbox"></input></td>
                     </tr>
                     <tr>First control throw #1</tr>
