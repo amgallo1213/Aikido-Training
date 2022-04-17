@@ -1,6 +1,8 @@
 .App {
   text-align: center;
-  background-color: #f8f9fa;
+  /* background-color: #f8f9fa; */
+  background-image: url(./images/dojo.jpg);
+  height: 2000px;
 }
 
 .Footer {
@@ -41,6 +43,7 @@
   margin: auto;
   border: 2px solid #777777;
 }
+
 
 
 

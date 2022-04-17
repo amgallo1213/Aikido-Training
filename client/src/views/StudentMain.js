@@ -12,6 +12,7 @@ import ThirdKyu from '../components/Third';
 import SecondKyu from '../components/Second';
 
 
+
 const StudentMain = () => {
 
     const tabsArray = [
@@ -30,19 +31,18 @@ const [ allTabs, setAllTabs ] = useState(tabsArray);
 
 const [ currentTabIndex, setCurrentTabIndex ] = useState(0);
     return (  
-        <div>
-            
-            <div>
-                <h2>TESTING TESTING ICHI NI SAN</h2>
+        <div >
+            <h2>Testing Requirements for Each Kyu</h2>
+            <div >
+                <Tabs 
+                    allTabs={ allTabs } 
+                    currentTabIndex={ currentTabIndex }
+                    setCurrentTabIndex={ setCurrentTabIndex } 
+                    
+                    
+                />
+                <Results allTabs={ allTabs } currentTabIndex={ currentTabIndex } />
             </div>
-
-        <Tabs 
-            allTabs={ allTabs } 
-            currentTabIndex={ currentTabIndex }
-            setCurrentTabIndex={ setCurrentTabIndex } 
-        />
-        <Results allTabs={ allTabs } currentTabIndex={ currentTabIndex } />
-
             
         </div>
     );

@@ -2,21 +2,22 @@ import { Link } from '@reach/router';
 import './App.css';
 import Navbar from './components/NavBar';
 import Footer from './components/Footer';
-import IndexPage from './components/Index';
+// import IndexPage from './components/Index';
 import StudentMain from './views/StudentMain';
 // import Login from './components/Login';
 
 
 
+
 function App() {
   return (
-    <div className="App">
+    <div className="App" >
       <Navbar />
       <hr/>
       <div>
-        <IndexPage/>
+        {/* <IndexPage/> */}
       </div>
-      <hr/>
+      {/* <hr/> */}
       <div>
 
         {/* <Login/> */}
