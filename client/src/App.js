@@ -1,4 +1,4 @@
-import { Link } from '@reach/router';
+import { Router } from '@reach/router';
 import './App.css';
 import Navbar from './components/NavBar';
 import Footer from './components/Footer';
@@ -12,19 +12,21 @@ import StudentMain from './views/StudentMain';
 function App() {
   return (
     <div className="App" >
-      <Navbar />
-      <hr/>
-      <div>
-        {/* <IndexPage/> */}
-      </div>
-      {/* <hr/> */}
-      <div>
+      <Router>
+        <Navbar />
+        <hr/>
+        <div>
+          {/* <IndexPage/> */}
+        </div>
+        {/* <hr/> */}
+        <div>
 
-        {/* <Login/> */}
-        <StudentMain/>
-      </div> 
-      <hr/>
-      <Footer />
+          {/* <Login/> */}
+          <StudentMain/>
+        </div> 
+        <hr/>
+        <Footer />
+      </Router>
     </div>
   );
 }

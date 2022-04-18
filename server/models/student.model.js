@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const bcrypt = require('bcrypt');
 
 const StudentSchema = new mongoose.Schema({
     firstName: {
@@ -13,18 +14,19 @@ const StudentSchema = new mongoose.Schema({
         type: String,
         required: [true, "Must be at least 5 characters."]
     },
+    validate: {
+        validator: val => /^([\w-\.]+@([\w-]+\.)+[\w-]+)?$/.test(val),
+        message: "Please enter a valid email"
+    },
     password: {
         type: String,
         required: [true, "Must be at least 8 characters"]
-    },
-    confirmPassword: {
-        type: String,
-        required: [true, "Passwords must match."]
     },
     currentKyu: {
         type: String,
         required: [true, "Must choose your current ranking."],
         enum: [
+        "White Belt",
         "9th",
         "8th",
         "7th",
@@ -55,3 +57,27 @@ const StudentSchema = new mongoose.Schema({
 
 const Student = mongoose.model("Student", StudentSchema);
 module.exports = Student;
+
+StudentSchema.virtual('confirmPassword')
+    .get( () => this._confirmPassword )
+    .set( value => this._confirmPassword = value );
+
+StudentSchema.pre('validate', function(next) {
+    if (this.password !== this.confirmPassword) {
+        this.invalidate('confirmPassword', 'Password must match confirm password');
+    }
+    next();
+});
+
+StudentSchema.pre('save', function(next) {
+    bcrypt.hash(this.password, 10)
+        .then(hash => {
+        this.password = hash;
+        console.log("HASHING");
+        next();
+        })
+        .catch((err) => {
+            console.log("Error!");
+            console.log(err);
+        })
+});
